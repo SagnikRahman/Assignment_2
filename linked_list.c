@@ -66,7 +66,7 @@ void deleteNode(int val)
         prev->next = current->next;
         free(current);
     } else {
-        printf("Node with value %d not found in the list.\n", value);
+        printf("Node with value %d not found in the list.\n", val);
     }
 }
 
