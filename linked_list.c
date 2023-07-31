@@ -54,7 +54,7 @@ void deleteNode(int val)
     // Traversing the list to find the node to be deleted and its previous node
     struct Node* current = head;
     struct Node* prev = NULL;
-    while (current != NULL && current->data != value) 
+    while (current != NULL && current->data != val) 
     {
         prev = current;
         current = current->next;
