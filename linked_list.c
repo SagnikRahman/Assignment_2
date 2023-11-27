@@ -6,7 +6,13 @@ struct Node
     int data;
     struct Node* next;
 };
-
+//to insert at beginning
+void insertAtBeginning(int val) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    newNode->next = head;
+    head = newNode;
+}
 // Declaring the global pointer variable head
 struct Node* head = NULL;
 
